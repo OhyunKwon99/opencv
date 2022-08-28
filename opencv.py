@@ -7,3 +7,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 cv2.imwrite('test2.png', img)
+print("Hello Python",cv2.__version__)

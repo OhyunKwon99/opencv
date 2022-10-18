@@ -11,7 +11,6 @@ if not cap.isOpened():
 
 while True:
     state, frame = cap.read()
-
     if not state:
         break
 
